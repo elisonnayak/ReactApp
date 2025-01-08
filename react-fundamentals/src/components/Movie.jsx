@@ -1,5 +1,6 @@
+import '../assets/css/movie.css';
+
 function Movie({movie}) {
-    
     function onFavClick(){
         alert("clicked");
     }

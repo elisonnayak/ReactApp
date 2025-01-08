@@ -1,6 +1,7 @@
 import Movie from "../components/Movie";
 import { useState, useEffect } from "react";
 import { getMovieDetails, findMovie} from "../services/api";
+import '../assets/css/home.css';
 
 function Home() {
     const [searchQuery, setSearchQuery] = useState("");
